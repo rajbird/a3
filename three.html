@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset=”utf-8” />
+    <title>Members</title>
+  </head>
+  <body>
+    <div class="page-container">
+      <img class="top-image" id="home" src="awards2.jpg">
+      <div class="topnav" id="myHeader">
+        <a href="home.html">Home</a>
+        <div class="topnav-right">
+          <a href="one.html">members</a>
+          <a href="two.html">music</a>
+          <a class="active" href="three.html">awards</a>
+        </div>
+      </div>
+      <section >
+
+        <br></br>
+        <br></br>
+<br></br><br></br><br></br><br></br><br></br><br></br>
+        <br></br><br></br><br></br>
+        <br></br>
+<br></br><br></br><br></br><br></br><br></br><br></br>
+        <br></br><br></br>
+<br></br>
+      </section>
+
+    </div>
+    <footer id="footer"></footer>
+
+    <script>
+      window.onscroll = function() {myFunction()};
+
+      var navbar = document.getElementById("myHeader");
+      var sticky = navbar.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset > sticky) {
+          navbar.classList.add("sticky");
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
+
+
+
+
+  </body>
+
+</html>
