@@ -81,6 +81,10 @@ body {
   margin: 0px;
   float: right;
 }
+#footer p a{
+  text-decoration: none;
+}
+
 .fa {
   padding-right: 15px;
   text-align: center;
