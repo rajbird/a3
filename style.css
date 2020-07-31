@@ -1,0 +1,132 @@
+body {
+    background: #e3abce;
+    background: linear-gradient(to bottom left, #a2c8ec,#ceb6d9,#e3abce,#f9b0c3,#fbcabb);
+    background-attachment:fixed;
+    height:100%;
+    font-size: 1.1em;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.top-image {
+  height: 50%;
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f1f1f1;
+}
+
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+.topnav {
+  overflow: hidden;
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  background-color: inherit;
+  margin-bottom: 7px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: white;
+  color: black;
+}
+
+.topnav-right {
+  float: right;
+}
+
+#footer {
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2.5rem;            /* Footer height */
+  background-color: black;
+  color: black;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 1rem;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+/* Page content */
+.content {
+  height: calc(100vh - 66px);
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+h1 {
+    color: coral;
+}
+#intro {
+    font-size: 1.3em;
+}
+.colorful {
+    color: orange;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.members-content{
+    width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.members-bts {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 15px;
+    font-size: 17px;
+}
+
+.members-container{
+
+}
